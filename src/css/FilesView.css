@@ -1,0 +1,58 @@
+.filesView{
+    width: 100%;
+    padding: 5px 30px;
+}
+.filesView_row{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filesView_titles{
+    display: flex;
+    margin-top: 5px;
+    color:rgb(85,78,78);
+}
+.filesView_titles>div>*{
+    margin: 5px;
+}
+.filesView_title_left{
+    flex:1;
+}
+.filesView_title_right{
+    display: flex;
+}
+p{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #363636;
+}
+
+/* ---------------file card -----------*/
+
+.fileCard{
+    height: 190px;
+    width: 200px;
+    border-radius: 10px;
+    border:1px solid rgb(219,219,219);
+    margin: 5px;
+}
+.fileCard-top{
+    height: 70%;
+    border-bottom: 1px solid rgb(219,219,219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fileCard-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1005;
+    height: 30%;
+}
+.fileCard-bottom>p{
+    font-size: 15px;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+}

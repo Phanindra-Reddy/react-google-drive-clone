@@ -1,0 +1,70 @@
+.sidebar{
+    width: 20%;
+    height: 10vh;
+    margin-right: 5px;
+}
+
+hr{
+    background-color: #5F6368;
+}
+
+/* --------------New File Button-------------- */
+
+.newFileBtn{
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+    padding-left: 20px;
+}
+.newFileBtn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    padding: 10px 32px 8px 10px;
+    border-radius: 50px;
+    box-shadow: 0 1px 2px 0 rgb(60,64,67,0.302), 0 1px 3px 1px rgb(60,64,67,0.149);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #606060;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.newFileBtn_container>p{
+    margin-left: 14px;
+}
+
+
+/* --------------Sidebar Items--------------- */
+
+.sidebarItems{
+    display: flex;
+    padding: 10px 0px;
+    border-radius: 0px 100px 100px 0px;
+}
+.sidebarItems:hover{
+    /* background-color: #f9f9f9; */
+    background-color: #ececec;
+}
+.sidebarItem_arrow{
+    width: 28px;
+    margin-left: 12px;
+}
+/* .sidebarItem_main>p:first-child{
+    color:#1967D2;
+    background-color:#1967D2;
+} */
+.sidebarItem_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #606060;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    line-height: 26px;
+}
+.sidebarItem_main>p{
+    margin-left: 20px;
+}
+
